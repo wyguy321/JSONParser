@@ -1,0 +1,623 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AD00D7CC1D99F66B00786793 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD00D7CB1D99F66B00786793 /* AppDelegate.swift */; };
+		AD00D7D31D99F66B00786793 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD00D7D21D99F66B00786793 /* Assets.xcassets */; };
+		AD00D7E11D99F66B00786793 /* JSONParserTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD00D7E01D99F66B00786793 /* JSONParserTests.swift */; };
+		AD00D7EC1D99F66B00786793 /* JSONParserUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD00D7EB1D99F66B00786793 /* JSONParserUITests.swift */; };
+		AD00D7FB1D99F7CC00786793 /* RetailersTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD00D7F91D99F7CC00786793 /* RetailersTableViewController.swift */; };
+		AD00D7FC1D99F7CC00786793 /* RetailersTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AD00D7FA1D99F7CC00786793 /* RetailersTableViewController.xib */; };
+		AD00D8021D99F91B00786793 /* Offers.json in Resources */ = {isa = PBXBuildFile; fileRef = AD00D7FF1D99F91B00786793 /* Offers.json */; };
+		AD00D8031D99F91B00786793 /* Retailers.json in Resources */ = {isa = PBXBuildFile; fileRef = AD00D8001D99F91B00786793 /* Retailers.json */; };
+		AD00D8041D99F91B00786793 /* Store Locations.json in Resources */ = {isa = PBXBuildFile; fileRef = AD00D8011D99F91B00786793 /* Store Locations.json */; };
+		AD00D8061D99F93F00786793 /* WMJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD00D8051D99F93F00786793 /* WMJSON.swift */; };
+		AD00D8091D9A038200786793 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD00D8081D9A038200786793 /* SwiftyJSON.swift */; };
+		AD00D80B1D9A03FA00786793 /* Retail.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD00D80A1D9A03FA00786793 /* Retail.swift */; };
+		AD4A4F381D9B0DDB00130518 /* WMParentTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD4A4F371D9B0DDB00130518 /* WMParentTableViewController.swift */; };
+		AD4A4F3B1D9B0F2000130518 /* RetailTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD4A4F391D9B0F2000130518 /* RetailTableViewCell.swift */; };
+		AD4A4F3C1D9B0F2000130518 /* RetailTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AD4A4F3A1D9B0F2000130518 /* RetailTableViewCell.xib */; };
+		AD9920621D9DE66000FF4815 /* OffersTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD9920601D9DE66000FF4815 /* OffersTableViewCell.swift */; };
+		AD9920631D9DE66000FF4815 /* OffersTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AD9920611D9DE66000FF4815 /* OffersTableViewCell.xib */; };
+		AD9920671D9DFDEA00FF4815 /* UIScrollView+APParallaxHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = AD9920661D9DFDEA00FF4815 /* UIScrollView+APParallaxHeader.m */; };
+		AD99206A1D9E003D00FF4815 /* OfferDetailTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD9920681D9E003D00FF4815 /* OfferDetailTableViewController.swift */; };
+		AD99206B1D9E003D00FF4815 /* OfferDetailTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AD9920691D9E003D00FF4815 /* OfferDetailTableViewController.xib */; };
+		ADB5C3521D9CBA8D00BE93FB /* Offers.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADB5C3511D9CBA8D00BE93FB /* Offers.swift */; };
+		ADB5C3551D9CC01A00BE93FB /* OffersTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADB5C3531D9CC01A00BE93FB /* OffersTableViewController.swift */; };
+		ADB5C3561D9CC01A00BE93FB /* OffersTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = ADB5C3541D9CC01A00BE93FB /* OffersTableViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AD00D7DD1D99F66B00786793 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AD00D7C01D99F66A00786793 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AD00D7C71D99F66A00786793;
+			remoteInfo = JSONParser;
+		};
+		AD00D7E81D99F66B00786793 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AD00D7C01D99F66A00786793 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AD00D7C71D99F66A00786793;
+			remoteInfo = JSONParser;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AD00D7C81D99F66B00786793 /* JSONParser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JSONParser.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD00D7CB1D99F66B00786793 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AD00D7D21D99F66B00786793 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AD00D7D71D99F66B00786793 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD00D7DC1D99F66B00786793 /* JSONParserTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JSONParserTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD00D7E01D99F66B00786793 /* JSONParserTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONParserTests.swift; sourceTree = "<group>"; };
+		AD00D7E21D99F66B00786793 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD00D7E71D99F66B00786793 /* JSONParserUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JSONParserUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD00D7EB1D99F66B00786793 /* JSONParserUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONParserUITests.swift; sourceTree = "<group>"; };
+		AD00D7ED1D99F66B00786793 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD00D7F91D99F7CC00786793 /* RetailersTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RetailersTableViewController.swift; sourceTree = "<group>"; };
+		AD00D7FA1D99F7CC00786793 /* RetailersTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RetailersTableViewController.xib; sourceTree = "<group>"; };
+		AD00D7FF1D99F91B00786793 /* Offers.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Offers.json; sourceTree = "<group>"; };
+		AD00D8001D99F91B00786793 /* Retailers.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Retailers.json; sourceTree = "<group>"; };
+		AD00D8011D99F91B00786793 /* Store Locations.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Store Locations.json"; sourceTree = "<group>"; };
+		AD00D8051D99F93F00786793 /* WMJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WMJSON.swift; sourceTree = "<group>"; };
+		AD00D8081D9A038200786793 /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
+		AD00D80A1D9A03FA00786793 /* Retail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Retail.swift; sourceTree = "<group>"; };
+		AD4A4F371D9B0DDB00130518 /* WMParentTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WMParentTableViewController.swift; sourceTree = "<group>"; };
+		AD4A4F391D9B0F2000130518 /* RetailTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RetailTableViewCell.swift; sourceTree = "<group>"; };
+		AD4A4F3A1D9B0F2000130518 /* RetailTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RetailTableViewCell.xib; sourceTree = "<group>"; };
+		AD9920601D9DE66000FF4815 /* OffersTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OffersTableViewCell.swift; sourceTree = "<group>"; };
+		AD9920611D9DE66000FF4815 /* OffersTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OffersTableViewCell.xib; sourceTree = "<group>"; };
+		AD9920641D9DFDE900FF4815 /* JSONParser-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "JSONParser-Bridging-Header.h"; sourceTree = "<group>"; };
+		AD9920651D9DFDEA00FF4815 /* UIScrollView+APParallaxHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+APParallaxHeader.h"; sourceTree = "<group>"; };
+		AD9920661D9DFDEA00FF4815 /* UIScrollView+APParallaxHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+APParallaxHeader.m"; sourceTree = "<group>"; };
+		AD9920681D9E003D00FF4815 /* OfferDetailTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OfferDetailTableViewController.swift; sourceTree = "<group>"; };
+		AD9920691D9E003D00FF4815 /* OfferDetailTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OfferDetailTableViewController.xib; sourceTree = "<group>"; };
+		ADB5C3511D9CBA8D00BE93FB /* Offers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Offers.swift; sourceTree = "<group>"; };
+		ADB5C3531D9CC01A00BE93FB /* OffersTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OffersTableViewController.swift; sourceTree = "<group>"; };
+		ADB5C3541D9CC01A00BE93FB /* OffersTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OffersTableViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AD00D7C51D99F66A00786793 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD00D7D91D99F66B00786793 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD00D7E41D99F66B00786793 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AD00D7BF1D99F66A00786793 = {
+			isa = PBXGroup;
+			children = (
+				AD00D7FE1D99F7F800786793 /* JSONData */,
+				AD00D7CA1D99F66B00786793 /* JSONParser */,
+				AD00D7DF1D99F66B00786793 /* JSONParserTests */,
+				AD00D7EA1D99F66B00786793 /* JSONParserUITests */,
+				AD00D7C91D99F66B00786793 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AD00D7C91D99F66B00786793 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AD00D7C81D99F66B00786793 /* JSONParser.app */,
+				AD00D7DC1D99F66B00786793 /* JSONParserTests.xctest */,
+				AD00D7E71D99F66B00786793 /* JSONParserUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AD00D7CA1D99F66B00786793 /* JSONParser */ = {
+			isa = PBXGroup;
+			children = (
+				AD00D8071D99F94500786793 /* Model */,
+				AD00D7FD1D99F7D500786793 /* ViewControllers */,
+				AD00D7CB1D99F66B00786793 /* AppDelegate.swift */,
+				AD00D7D21D99F66B00786793 /* Assets.xcassets */,
+				AD00D7D71D99F66B00786793 /* Info.plist */,
+			);
+			path = JSONParser;
+			sourceTree = "<group>";
+		};
+		AD00D7DF1D99F66B00786793 /* JSONParserTests */ = {
+			isa = PBXGroup;
+			children = (
+				AD00D7E01D99F66B00786793 /* JSONParserTests.swift */,
+				AD00D7E21D99F66B00786793 /* Info.plist */,
+			);
+			path = JSONParserTests;
+			sourceTree = "<group>";
+		};
+		AD00D7EA1D99F66B00786793 /* JSONParserUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AD00D7EB1D99F66B00786793 /* JSONParserUITests.swift */,
+				AD00D7ED1D99F66B00786793 /* Info.plist */,
+			);
+			path = JSONParserUITests;
+			sourceTree = "<group>";
+		};
+		AD00D7FD1D99F7D500786793 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				AD9920681D9E003D00FF4815 /* OfferDetailTableViewController.swift */,
+				AD9920691D9E003D00FF4815 /* OfferDetailTableViewController.xib */,
+				AD9920601D9DE66000FF4815 /* OffersTableViewCell.swift */,
+				AD9920611D9DE66000FF4815 /* OffersTableViewCell.xib */,
+				ADB5C3531D9CC01A00BE93FB /* OffersTableViewController.swift */,
+				ADB5C3541D9CC01A00BE93FB /* OffersTableViewController.xib */,
+				AD4A4F371D9B0DDB00130518 /* WMParentTableViewController.swift */,
+				AD4A4F391D9B0F2000130518 /* RetailTableViewCell.swift */,
+				AD4A4F3A1D9B0F2000130518 /* RetailTableViewCell.xib */,
+				AD00D7F91D99F7CC00786793 /* RetailersTableViewController.swift */,
+				AD00D7FA1D99F7CC00786793 /* RetailersTableViewController.xib */,
+				AD9920641D9DFDE900FF4815 /* JSONParser-Bridging-Header.h */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		AD00D7FE1D99F7F800786793 /* JSONData */ = {
+			isa = PBXGroup;
+			children = (
+				AD00D7FF1D99F91B00786793 /* Offers.json */,
+				AD00D8001D99F91B00786793 /* Retailers.json */,
+				AD00D8011D99F91B00786793 /* Store Locations.json */,
+			);
+			name = JSONData;
+			sourceTree = "<group>";
+		};
+		AD00D8071D99F94500786793 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				AD9920651D9DFDEA00FF4815 /* UIScrollView+APParallaxHeader.h */,
+				AD9920661D9DFDEA00FF4815 /* UIScrollView+APParallaxHeader.m */,
+				AD00D8081D9A038200786793 /* SwiftyJSON.swift */,
+				AD00D8051D99F93F00786793 /* WMJSON.swift */,
+				AD00D80A1D9A03FA00786793 /* Retail.swift */,
+				ADB5C3511D9CBA8D00BE93FB /* Offers.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AD00D7C71D99F66A00786793 /* JSONParser */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD00D7F01D99F66B00786793 /* Build configuration list for PBXNativeTarget "JSONParser" */;
+			buildPhases = (
+				AD00D7C41D99F66A00786793 /* Sources */,
+				AD00D7C51D99F66A00786793 /* Frameworks */,
+				AD00D7C61D99F66A00786793 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JSONParser;
+			productName = JSONParser;
+			productReference = AD00D7C81D99F66B00786793 /* JSONParser.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AD00D7DB1D99F66B00786793 /* JSONParserTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD00D7F31D99F66B00786793 /* Build configuration list for PBXNativeTarget "JSONParserTests" */;
+			buildPhases = (
+				AD00D7D81D99F66B00786793 /* Sources */,
+				AD00D7D91D99F66B00786793 /* Frameworks */,
+				AD00D7DA1D99F66B00786793 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AD00D7DE1D99F66B00786793 /* PBXTargetDependency */,
+			);
+			name = JSONParserTests;
+			productName = JSONParserTests;
+			productReference = AD00D7DC1D99F66B00786793 /* JSONParserTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AD00D7E61D99F66B00786793 /* JSONParserUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD00D7F61D99F66B00786793 /* Build configuration list for PBXNativeTarget "JSONParserUITests" */;
+			buildPhases = (
+				AD00D7E31D99F66B00786793 /* Sources */,
+				AD00D7E41D99F66B00786793 /* Frameworks */,
+				AD00D7E51D99F66B00786793 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AD00D7E91D99F66B00786793 /* PBXTargetDependency */,
+			);
+			name = JSONParserUITests;
+			productName = JSONParserUITests;
+			productReference = AD00D7E71D99F66B00786793 /* JSONParserUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AD00D7C01D99F66A00786793 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = Wyatt;
+				TargetAttributes = {
+					AD00D7C71D99F66A00786793 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = X543GXR2FB;
+						LastSwiftMigration = 0800;
+						ProvisioningStyle = Automatic;
+					};
+					AD00D7DB1D99F66B00786793 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = AD00D7C71D99F66A00786793;
+					};
+					AD00D7E61D99F66B00786793 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = AD00D7C71D99F66A00786793;
+					};
+				};
+			};
+			buildConfigurationList = AD00D7C31D99F66A00786793 /* Build configuration list for PBXProject "JSONParser" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AD00D7BF1D99F66A00786793;
+			productRefGroup = AD00D7C91D99F66B00786793 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AD00D7C71D99F66A00786793 /* JSONParser */,
+				AD00D7DB1D99F66B00786793 /* JSONParserTests */,
+				AD00D7E61D99F66B00786793 /* JSONParserUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AD00D7C61D99F66A00786793 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD9920631D9DE66000FF4815 /* OffersTableViewCell.xib in Resources */,
+				AD4A4F3C1D9B0F2000130518 /* RetailTableViewCell.xib in Resources */,
+				AD00D8021D99F91B00786793 /* Offers.json in Resources */,
+				AD00D8041D99F91B00786793 /* Store Locations.json in Resources */,
+				ADB5C3561D9CC01A00BE93FB /* OffersTableViewController.xib in Resources */,
+				AD00D8031D99F91B00786793 /* Retailers.json in Resources */,
+				AD00D7FC1D99F7CC00786793 /* RetailersTableViewController.xib in Resources */,
+				AD00D7D31D99F66B00786793 /* Assets.xcassets in Resources */,
+				AD99206B1D9E003D00FF4815 /* OfferDetailTableViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD00D7DA1D99F66B00786793 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD00D7E51D99F66B00786793 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AD00D7C41D99F66A00786793 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD00D7CC1D99F66B00786793 /* AppDelegate.swift in Sources */,
+				AD4A4F3B1D9B0F2000130518 /* RetailTableViewCell.swift in Sources */,
+				AD00D8061D99F93F00786793 /* WMJSON.swift in Sources */,
+				AD9920671D9DFDEA00FF4815 /* UIScrollView+APParallaxHeader.m in Sources */,
+				AD00D80B1D9A03FA00786793 /* Retail.swift in Sources */,
+				ADB5C3521D9CBA8D00BE93FB /* Offers.swift in Sources */,
+				ADB5C3551D9CC01A00BE93FB /* OffersTableViewController.swift in Sources */,
+				AD99206A1D9E003D00FF4815 /* OfferDetailTableViewController.swift in Sources */,
+				AD9920621D9DE66000FF4815 /* OffersTableViewCell.swift in Sources */,
+				AD4A4F381D9B0DDB00130518 /* WMParentTableViewController.swift in Sources */,
+				AD00D7FB1D99F7CC00786793 /* RetailersTableViewController.swift in Sources */,
+				AD00D8091D9A038200786793 /* SwiftyJSON.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD00D7D81D99F66B00786793 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD00D7E11D99F66B00786793 /* JSONParserTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD00D7E31D99F66B00786793 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD00D7EC1D99F66B00786793 /* JSONParserUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AD00D7DE1D99F66B00786793 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AD00D7C71D99F66A00786793 /* JSONParser */;
+			targetProxy = AD00D7DD1D99F66B00786793 /* PBXContainerItemProxy */;
+		};
+		AD00D7E91D99F66B00786793 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AD00D7C71D99F66A00786793 /* JSONParser */;
+			targetProxy = AD00D7E81D99F66B00786793 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		AD00D7EE1D99F66B00786793 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AD00D7EF1D99F66B00786793 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AD00D7F11D99F66B00786793 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = X543GXR2FB;
+				INFOPLIST_FILE = JSONParser/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.melin.wyatt.JSONParser;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "JSONParser/JSONParser-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		AD00D7F21D99F66B00786793 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = X543GXR2FB;
+				INFOPLIST_FILE = JSONParser/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.melin.wyatt.JSONParser;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "JSONParser/JSONParser-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		AD00D7F41D99F66B00786793 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = JSONParserTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.eshow.tests.JSONParserTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JSONParser.app/JSONParser";
+			};
+			name = Debug;
+		};
+		AD00D7F51D99F66B00786793 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = JSONParserTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.eshow.tests.JSONParserTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JSONParser.app/JSONParser";
+			};
+			name = Release;
+		};
+		AD00D7F71D99F66B00786793 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = JSONParserUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.eshow.tests.JSONParserUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = JSONParser;
+			};
+			name = Debug;
+		};
+		AD00D7F81D99F66B00786793 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = JSONParserUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.eshow.tests.JSONParserUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = JSONParser;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AD00D7C31D99F66A00786793 /* Build configuration list for PBXProject "JSONParser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD00D7EE1D99F66B00786793 /* Debug */,
+				AD00D7EF1D99F66B00786793 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD00D7F01D99F66B00786793 /* Build configuration list for PBXNativeTarget "JSONParser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD00D7F11D99F66B00786793 /* Debug */,
+				AD00D7F21D99F66B00786793 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD00D7F31D99F66B00786793 /* Build configuration list for PBXNativeTarget "JSONParserTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD00D7F41D99F66B00786793 /* Debug */,
+				AD00D7F51D99F66B00786793 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD00D7F61D99F66B00786793 /* Build configuration list for PBXNativeTarget "JSONParserUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD00D7F71D99F66B00786793 /* Debug */,
+				AD00D7F81D99F66B00786793 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AD00D7C01D99F66A00786793 /* Project object */;
+}
